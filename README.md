@@ -14,13 +14,14 @@ APIs built:
 
 Installation instructions:
 
-    You can use a virtual environment to create isolated environments. See http://docs.python-guide.org/en/latest/dev/virtualenvs/
+   You can use a virtual environment to create isolated environments. See <http://docs.python-guide.org/en/latest/dev/virtualenvs/>
 
-    Dependencies:
+   Dependencies:
 
-        Python 3.5
+    Python 3.5
 
-        Django 1.10 See https://docs.djangoproject.com/en/1.10/topics/install/
+    Django 1.10 
+   See <https://docs.djangoproject.com/en/1.10/topics/install/>
 
     Steps:
 
