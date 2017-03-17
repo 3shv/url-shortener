@@ -14,9 +14,10 @@ APIs built:
     
         Input: POST {
                         "slug": "aed83214",
-                         "config": [
+                         "config": [ {
                             "user_agent": "mozilla",
-                            "target_url": "http://m.facebook.com"/
+                            "target_url": "http://m.facebook.com/"
+                            }
                          ]
                     }
 
@@ -24,7 +25,7 @@ APIs built:
 
     4. Navigation to target-url (/(?P[a-zA-Z0-9])/
     
-            GET /12345678/
+            GET /aed83214/
     
 You can test using these sample postman API collection provided [here](https://www.getpostman.com/collections/e2558ca1600cde040258) 
 
