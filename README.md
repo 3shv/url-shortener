@@ -5,12 +5,28 @@ This is a sample implementation of URL-shortener service using Django, python 3.
 APIs built:
 
     1. Creating a shortened URL -- (/api/create/)
+    
+        Input: POST {
+                        "target_url": "http://google.com/"
+                    }
 
     2. Configuring it for different user agents (/api/configure/)
+    
+        Input: POST {
+                        "slug": "12345678",
+                         "config": [
+                            "user_agent": "mozilla",
+                            "target_url": "http://m.facebook.com"/
+                         ]
+                    }
 
     3. List all urls submitted with their navigation counts and time elapsed (/api/urls/)
 
     4. Navigation to target-url (/(?P[a-zA-Z0-9])/
+    
+            GET /12345678/
+    
+You can test using these sample postman API collection provided [here](https://www.getpostman.com/collections/e2558ca1600cde040258) 
 
 Installation instructions:
 
