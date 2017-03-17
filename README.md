@@ -13,7 +13,7 @@ APIs built:
     2. Configuring it for different user agents (/api/configure/)
     
         Input: POST {
-                        "slug": "12345678",
+                        "slug": "aed83214",
                          "config": [
                             "user_agent": "mozilla",
                             "target_url": "http://m.facebook.com"/
